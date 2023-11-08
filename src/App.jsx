@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
     <div>React app</div>
-    <h2>esta funcionando</h2>
+    <h2>probando PROD</h2>
     </div>
   )
 }
