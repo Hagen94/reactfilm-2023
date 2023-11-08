@@ -1,11 +1,15 @@
-import React from 'react'
+
+import { RouterProvider } from 'react-router-dom'
+import { appRouter } from './core/routes/app-router'
 
 const App = () => {
   return (
-    <div>
-    <div>React app</div>
-    <h2>probando PROD</h2>
-    </div>
+    <>
+    <RouterProvider router={appRouter}>
+
+    </RouterProvider>
+    
+    </>
   )
 }
 
